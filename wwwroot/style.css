@@ -1,0 +1,83 @@
+/* Body background with lavender tint and background image */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: 
+    linear-gradient(rgba(230, 230, 250, 0.8), rgba(230, 230, 250, 0.8)),
+    url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Wrapper to center box */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.wrapperregis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Registration box */
+.container {
+  background: #ffffffee;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  width: 340px;
+  text-align: center;
+}
+
+/* Form fields */
+input {
+  width: 100%;
+  padding: 12px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #9370DB; /* lavender purple */
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #7b5eb7;
+}
+
+/* Messages */
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Link text */
+p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+a {
+  color: #9370DB;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Register</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- WRAPPER for centering -->
+<div class="wrapperregis">
+    <div class="container">
+         <h2>Register</h2>
+         <input type="email" id="registerEmail" placeholder="Email" required />
+         <input type="password" id="registerPassword" placeholder="Password (min 6 chars)" required minlength="6" />
+         <button id="registerBtn">Register</button>
+         <div id="registerMessage" class="message"></div>
+         <p>Already have an account? <a href="index.html">Login here</a></p>
+    </div>
+</div>
+
+<script src="register.js"></script>
+</body>
+</html>
